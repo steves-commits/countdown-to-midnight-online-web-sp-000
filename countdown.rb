@@ -10,4 +10,7 @@ end
 
 def countdown_with_sleep(seconds)
   while seconds > 0 
-  puts 
+  puts "#{seconds} seconds!"
+  seconds -= 1 
+  seconds(1) 
+  en
